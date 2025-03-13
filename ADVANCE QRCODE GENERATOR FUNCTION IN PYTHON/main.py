@@ -1,6 +1,6 @@
 # Custom/Advance qr code genrator in python
 
-import qrcode
+import qrcode # pip install qrcode
 
 qr=qrcode.QRCode(
     version=1,
@@ -9,8 +9,8 @@ qr=qrcode.QRCode(
     border=4,
 )
 
-qr.add_data("youtube.com")
+qr.add_data("youtube.com") # Data from user in the form of url
 qr.make(fit=True)
 
-y=qr.make_image(fill_color="black", back_color="white")
-y.save("Hi.png")
+y=qr.make_image(fill_color="black", back_color="white") # Giving different colour to the qr code
+y.save("Hi.png") # The name of the saved file

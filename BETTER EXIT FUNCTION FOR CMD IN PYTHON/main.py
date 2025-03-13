@@ -1,4 +1,4 @@
-import sys
+import sys # pip install sys
 def exit():
     input("Press Enter To Exit...")
     sys.exit()
