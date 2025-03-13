@@ -1,0 +1,3 @@
+This exit() command will prevent the cmd window from closing after executing the program.
+After using this function this will only exit the program, when "Enter" key is pressed.
+-----Thanks For Reading-----
